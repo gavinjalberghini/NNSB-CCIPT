@@ -1,0 +1,12 @@
+# Don't track content of these folders
+.idea/
+__pycache__/
+
+# Compiled source #
+###################
+*.idea
+*.DS_Store
+
+# Packages #
+############
+Code/process.pyc

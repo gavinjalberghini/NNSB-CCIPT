@@ -1,0 +1,7 @@
+﻿Name,lat,long,VertVel(mm/yr),UncertVertVel(mm/yr),Time Period,Lat_Long Update Date,Status,Decommission Date,Website
+LOYX,37.2763974,-76.69550545,-1.89,0.93,20090509–20170408,Jun-19,Operational,~,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=LOYX
+VAGP,37.2486134,-76.499369725,-2.24,1.21,20071001–20160419,Jun-19,Operational,~,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=VAGP
+LOY1,37.0621701,-76.40343201111112,-2.42,1.45,20090206–20120321,Jun-19,Decomissioned,Sept 1 2019,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=LOY1
+DRV5/6,36.9584879,-76.55644806111111,-1.86,0.48,20060310–20160818,Jun-19,Decomissioned,Sept 1 2019,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=DRV6
+LOY2,36.7640087,-76.23779674444445,-1.77,0.86,20090206–20170408,Jun-19,Operational,~,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=LOY2
+LS03,36.7887323,-75.959536075,-0.98,0.9,20090255–20170408,Jun-19,Operational,~,https://www.ngs.noaa.gov/cgi-cors/corsage.prl?site=LS03

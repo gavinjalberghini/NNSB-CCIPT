@@ -1,0 +1,18 @@
+#Copy and paste into PyQgis window
+
+#need to define where to put in user's file
+layer1 = QgsRasterLayer('C:/Users/CRMay/Downloads/rasterdata.txt')
+#same thing here, needs user's output folder
+output = 'C:/Users/CRMay/Capstone/newcalc2.tif'
+entries = []
+
+newCalc = QgsRasterCalculatorEntry()
+newCalc.ref = 'newCalc@1'
+newCalc.raster = layer1
+newCalc.bandNumber = 1
+entries.append(newCalc)
+
+#calculation number will be output of regression algorithm
+#currently works however the coordinate system is wonky
+calculation = QgsRasterCalculator('newCalc@1 > 0.5 AND newCalc@1 < 10', output, 'GTiff', layer1.extent(), layer1.width(), layer1.height(), entries)
+calculation.processCalculation()
